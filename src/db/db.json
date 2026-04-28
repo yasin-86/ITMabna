@@ -1,0 +1,122 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "HTML & CSS Fundamentals",
+      "description": "یادگیری اصول اولیه ساخت صفحات وب با HTML و طراحی ظاهر با CSS.",
+      "duration_hours": 12,
+      "recommended_practice_hours": 20,
+      "content": [
+        "آشنایی با تگ‌ها",
+        "ساختار صفحه وب",
+        "انتخابگرهای CSS",
+        "Flexbox",
+        "Responsive Design"
+      ],
+      "price": 350000,
+      "category": "frontend",
+      "features": ["پروژه نهایی", "مناسب برای مبتدی‌ها", "محتوای به‌روز"]
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Zero to Hero",
+      "description": "آشنایی کامل با جاوااسکریپت و ساخت پروژه‌های کاربردی.",
+      "duration_hours": 40,
+      "recommended_practice_hours": 80,
+      "content": ["نوع داده‌ها", "توابع", "DOM", "Async", "ES6"],
+      "price": 750000,
+      "category": "frontend",
+      "features": ["بیش از 50 تمرین", "پروژه Todo App", "مناسب برای سطح متوسط"]
+    },
+    {
+      "id": 3,
+      "title": "React Complete Course",
+      "description": "آموزش کامل ری‌اکت همراه با پروژه‌های واقعی.",
+      "duration_hours": 35,
+      "recommended_practice_hours": 100,
+      "content": [
+        "کامپوننت‌ها",
+        "State Management",
+        "React Hooks",
+        "Routing",
+        "Context API"
+      ],
+      "price": 1100000,
+      "category": "frontend",
+      "features": [
+        "دو پروژه واقعی",
+        "پشتیبانی مربی",
+        "مناسب برای ورود به بازار کار"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Next.js Bootcamp",
+      "description": "آموزش Next.js برای ساخت سایت‌های سریع و سئو فرندلی.",
+      "duration_hours": 30,
+      "recommended_practice_hours": 80,
+      "content": [
+        "Pages Router",
+        "App Router",
+        "SSR / SSG",
+        "APIs",
+        "Deployment"
+      ],
+      "price": 1300000,
+      "category": "frontend",
+      "features": [
+        "ساخت وبسایت فول‌استک",
+        "بهینه‌سازی برای SEO",
+        "پروژه فروشگاه"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Node.js & Express",
+      "description": "آموزش ساخت بک‌اند با Node.js و Express و اتصال به دیتابیس.",
+      "duration_hours": 45,
+      "recommended_practice_hours": 100,
+      "content": [
+        "ساخت سرور",
+        "Middleware",
+        "JWT Auth",
+        "REST APIs",
+        "کار با MongoDB"
+      ],
+      "price": 900000,
+      "category": "backend",
+      "features": ["پروژه API واقعی", "امنیت و احراز هویت", "اتصال به دیتابیس"]
+    }
+  ],
+
+  "students": [
+    {
+      "id": 1,
+      "name": "محمد رضایی",
+      "email": "m.rezaei@example.com",
+      "registeredCourses": [1, 2, 3],
+      "cart": [
+        {
+          "courseId": 4,
+          "addedAt": "2026-04-24T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "فاطمه موسوی",
+      "email": "f.mousavi@example.com",
+      "registeredCourses": [2, 4, 5],
+      "cart": [
+        {
+          "courseId": 1,
+          "addedAt": "2026-04-24T13:30:00Z"
+        },
+        {
+          "courseId": 3,
+          "addedAt": "2026-04-24T13:35:00Z"
+        }
+      ]
+    }
+  ]
+}
