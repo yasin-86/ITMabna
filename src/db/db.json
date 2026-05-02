@@ -15,7 +15,8 @@
       ],
       "price": 350000,
       "category": "frontend",
-      "features": ["پروژه نهایی", "مناسب برای مبتدی‌ها", "محتوای به‌روز"]
+      "features": ["پروژه نهایی", "مناسب برای مبتدی‌ها", "محتوای به‌روز"],
+      "imageUrl": "https://rayamarketing.com/uploads/blog/Teaching-How-Work-Design-Site-HTML-CSS/Teaching-How-Work-Design-Site-HTML-CSS.%D8%A7%D8%A8_1669572955.png"
     },
     {
       "id": 2,
@@ -26,7 +27,8 @@
       "content": ["نوع داده‌ها", "توابع", "DOM", "Async", "ES6"],
       "price": 750000,
       "category": "frontend",
-      "features": ["بیش از 50 تمرین", "پروژه Todo App", "مناسب برای سطح متوسط"]
+      "features": ["بیش از 50 تمرین", "پروژه Todo App", "مناسب برای سطح متوسط"],
+      "imageUrl": "https://thr-storage.abramad.com:9021/images/ckeditor/13980312-10033000.webp?AWSAccessKeyId=zradfi8e9on5crea7roho17l7nj69btwwyh7fbfmnnji545u&Signature=hY7J4Ap2wUsmOKPoZUOwGT6TDlo%3D&Expires=2132179868"
     },
     {
       "id": 3,
@@ -47,7 +49,8 @@
         "دو پروژه واقعی",
         "پشتیبانی مربی",
         "مناسب برای ورود به بازار کار"
-      ]
+      ],
+      "imageUrl": "https://mihanwebhost.com/blog//inlinePhotos/1719398365image2.webp"
     },
     {
       "id": 4,
@@ -68,7 +71,8 @@
         "ساخت وبسایت فول‌استک",
         "بهینه‌سازی برای SEO",
         "پروژه فروشگاه"
-      ]
+      ],
+      "imageUrl": "https://faradars.org/wp-content/uploads/2024/12/03/fvtgs6861.png"
     },
     {
       "id": 5,
@@ -85,10 +89,10 @@
       ],
       "price": 900000,
       "category": "backend",
-      "features": ["پروژه API واقعی", "امنیت و احراز هویت", "اتصال به دیتابیس"]
+      "features": ["پروژه API واقعی", "امنیت و احراز هویت", "اتصال به دیتابیس"],
+      "imageUrl": "https://blog.faradars.org/wp-content/uploads/2019/02/node-js.jpg"
     }
   ],
-
   "students": [
     {
       "id": 1,
