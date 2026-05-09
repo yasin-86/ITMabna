@@ -24,12 +24,21 @@ function Navbar() {
             {Menuitems.map((item) => {
               return (
                 <li key={item.path}>
-                  <Link to={item.path} className="text-white text-[16px] hover:text-blue-200 transition-colors duration-300 font-medium">{item.name}</Link>
+                  <Link
+                    to={item.path}
+                    className="text-white text-[16px] hover:text-blue-200 transition-colors duration-300 font-medium"
+                  >
+                    {item.name}
+                  </Link>
                 </li>
               );
             })}
-            <Button varient = "primary" to="/signup">ثبت نام</Button>
-            <Button varient = "secondray" to="/login">ورود</Button>
+            <Button varient="primary" to="/signup">
+              ثبت نام
+            </Button>
+            <Button varient="secondray" to="/login">
+              ورود
+            </Button>
           </ul>
         </div>
       </div>

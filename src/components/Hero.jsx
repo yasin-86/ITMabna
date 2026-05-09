@@ -17,7 +17,7 @@ function Hero() {
           علی الخصوص طراحان خلاقی راحان رایانه ای علی الخصوص طراحان خلاقی، و
           فرهنگ پیشرو در زبان فارسی ایجاد کرد،
         </p>
-        <Button className="w-1/3 mt-4">همین حالا ثبت نام کن</Button>
+        <Button to="/signup" className="w-1/3 mt-4">همین حالا ثبت نام کن</Button>
       </div>
     </div>
     <img

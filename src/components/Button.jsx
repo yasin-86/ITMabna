@@ -10,7 +10,7 @@ function Button({
   to,
   varient = "primary",
   className,
-  ...rest
+  
 }) {
   return (
     <Link
