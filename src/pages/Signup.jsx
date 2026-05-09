@@ -35,7 +35,6 @@ function Signup() {
                 placeholder="آدرس ایمیل"
               />
             </div>
-
             <div>
               <label className="sr-only">
                 رمز عبور
