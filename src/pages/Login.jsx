@@ -16,6 +16,7 @@ function Login() {
               ایمیل
             </label>
             <Input
+            name="email"
               type="email"
               placeholder="ایمیل خود را وارد کنید"
               className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition text-right"
@@ -26,6 +27,7 @@ function Login() {
               رمز عبور
             </label>
             <Input
+            name="password"
               type="password"
               placeholder="رمز عبور خود را وارد کنید"
               className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition text-right"
@@ -38,6 +40,7 @@ function Login() {
             </Link>
             <label className="flex items-center space-x-reverse space-x-2">
               <Input
+              name="checkbox"
                 type="checkbox"
                 className="rounded text-blue-500 focus:ring-blue-400"
               />
