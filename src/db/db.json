@@ -1,7 +1,7 @@
 {
   "courses": [
     {
-      "id": 1,
+      "id": "1",
       "title": "HTML & CSS Fundamentals",
       "description": "یادگیری اصول اولیه ساخت صفحات وب با HTML و طراحی ظاهر با CSS.",
       "duration_hours": 12,
@@ -15,23 +15,37 @@
       ],
       "price": 350000,
       "category": "frontend",
-      "features": ["پروژه نهایی", "مناسب برای مبتدی‌ها", "محتوای به‌روز"],
+      "features": [
+        "پروژه نهایی",
+        "مناسب برای مبتدی‌ها",
+        "محتوای به‌روز"
+      ],
       "imageUrl": "https://rayamarketing.com/uploads/blog/Teaching-How-Work-Design-Site-HTML-CSS/Teaching-How-Work-Design-Site-HTML-CSS.%D8%A7%D8%A8_1669572955.png"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "JavaScript Zero to Hero",
       "description": "آشنایی کامل با جاوااسکریپت و ساخت پروژه‌های کاربردی.",
       "duration_hours": 40,
       "recommended_practice_hours": 80,
-      "content": ["نوع داده‌ها", "توابع", "DOM", "Async", "ES6"],
+      "content": [
+        "نوع داده‌ها",
+        "توابع",
+        "DOM",
+        "Async",
+        "ES6"
+      ],
       "price": 750000,
       "category": "frontend",
-      "features": ["بیش از 50 تمرین", "پروژه Todo App", "مناسب برای سطح متوسط"],
+      "features": [
+        "بیش از 50 تمرین",
+        "پروژه Todo App",
+        "مناسب برای سطح متوسط"
+      ],
       "imageUrl": "https://thr-storage.abramad.com:9021/images/ckeditor/13980312-10033000.webp?AWSAccessKeyId=zradfi8e9on5crea7roho17l7nj69btwwyh7fbfmnnji545u&Signature=hY7J4Ap2wUsmOKPoZUOwGT6TDlo%3D&Expires=2132179868"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "React Complete Course",
       "description": "آموزش کامل ری‌اکت همراه با پروژه‌های واقعی.",
       "duration_hours": 35,
@@ -53,7 +67,7 @@
       "imageUrl": "https://mihanwebhost.com/blog//inlinePhotos/1719398365image2.webp"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Next.js Bootcamp",
       "description": "آموزش Next.js برای ساخت سایت‌های سریع و سئو فرندلی.",
       "duration_hours": 30,
@@ -75,7 +89,7 @@
       "imageUrl": "https://faradars.org/wp-content/uploads/2024/12/03/fvtgs6861.png"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Node.js & Express",
       "description": "آموزش ساخت بک‌اند با Node.js و Express و اتصال به دیتابیس.",
       "duration_hours": 45,
@@ -89,16 +103,24 @@
       ],
       "price": 900000,
       "category": "backend",
-      "features": ["پروژه API واقعی", "امنیت و احراز هویت", "اتصال به دیتابیس"],
+      "features": [
+        "پروژه API واقعی",
+        "امنیت و احراز هویت",
+        "اتصال به دیتابیس"
+      ],
       "imageUrl": "https://blog.faradars.org/wp-content/uploads/2019/02/node-js.jpg"
     }
   ],
   "students": [
     {
-      "id": 1,
+      "id": "1",
       "name": "محمد رضایی",
       "email": "m.rezaei@example.com",
-      "registeredCourses": [1, 2, 3],
+      "registeredCourses": [
+        1,
+        2,
+        3
+      ],
       "cart": [
         {
           "courseId": 4,
@@ -107,10 +129,14 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "فاطمه موسوی",
       "email": "f.mousavi@example.com",
-      "registeredCourses": [2, 4, 5],
+      "registeredCourses": [
+        2,
+        4,
+        5
+      ],
       "cart": [
         {
           "courseId": 1,
@@ -122,5 +148,6 @@
         }
       ]
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
